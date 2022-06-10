@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.background {
+    height: 700px;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    background-color: transparent;
+}
+
+.nav h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #b700ff;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.nav li {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav li .nav_icons {
+    display: flex;
+    padding-left: 750px;
+    gap: 25px;
+}
+
+.nav img {
+    height: 25px;
+}
+
+.main_game {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 150px;
+    flex-flow: column wrap;
+    width: 500px;
+    gap: 15px;
+}
+
+.main_game h1 {
+    font-size: 45px;
+}
+
+.main_game .main_game_buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.main_game .button_jogar {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 18px;
+}
+
+.button_jogar:hover {
+    background-color: #d4d4d4;
+}
+
+.button_jogar img {
+    height: 25px;
+}
+
+.button_mais_informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 10px;
+    background-color: #727272;
+    color: white;
+}
+
+.button_mais_informacoes:hover {
+    background-color: #5f5f5f;
+}
+
+.button_mais_informacoes img {
+    height: 25px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    padding-top: 140px;
+    padding-left: 80px;
+    gap: 45px;
+}
+
+.categories img {
+    border: 3px solid transparent;
+}
+
+.categories img:hover {
+    border: 3px solid white;
+}
+
+.my_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.my_list h2 {
+    font-size: 20px;
+}
+
+.my_list .my_list_img {
+    display: flex;
+    gap: 10px;
+}
+
+.my_list_img img {
+    height: 150px;
+    width: 260px;
+    border-radius: 5px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.top h2 {
+    font-size: 20px;
+}
+
+.top .top_img {
+    display: flex;
+    gap: 10px;
+}
+
+.top_img img {
+    height: 150px;
+    width: 260px;
+    border-radius: 5px;
+}
+
+.simulation {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.simulation h2 {
+    font-size: 20px;
+}
+
+.simulation .simulation_img {
+    display: flex;
+    gap: 10px;
+}
+
+.simulation_img img {
+    height: 150px;
+    width: 260px;
+    border-radius: 5px;
+}
+
+.horror {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.horror h2 {
+    font-size: 20px;
+}
+
+.horror .horror_img {
+    display: flex;
+    gap: 10px;
+}
+
+.horror_img img {
+    height: 150px;
+    width: 260px;
+    border-radius: 5px;
+}
+
+.fps {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fps h2 {
+    font-size: 20px;
+}
+
+.fps .fps_img {
+    display: flex;
+    gap: 10px;
+}
+
+.fps_img img {
+    height: 150px;
+    width: 260px;
+    border-radius: 5px;
+}

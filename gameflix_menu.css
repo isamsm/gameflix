@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.title {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.title h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #b700ff;
+}
+
+.quem_esta_jogando {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 110px;
+    gap: 50px;
+}
+
+.quem_esta_jogando h2 {
+    font-size: 45px;
+}
+
+.quem_esta_jogando .jogadores {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.jogadores img {
+    height: 200px;
+    border-radius: 15px;
+    border: 3px solid transparent;
+}
+
+.jogadores img:hover {
+    border: 3px solid white;
+}
+
+.jogadores span {
+    color: #727272;
+}
+
+.jogador_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.jogador_2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.jogador_3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.novo_jogador {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    gap: 60px;
+}
+
+.novo_jogador img {
+    display: flex;
+    height: 120px;
+    width: 120px;
+}
+
+.btn {
+    display: flex;
+    padding-top: 35px;
+}
+
+.btn button {
+    background-color: #141414;
+    border: 2px solid #727272;
+    height: 45px;
+    width: 200px;
+    color: #727272;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.btn button:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+
