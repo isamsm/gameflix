@@ -1,0 +1,60 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+const simulation = [
+    {
+        title: 'The Sims 4', 
+        image: `${process.env.PUBLIC_URL}/img/ts4.png`, 
+        link: 'https://store.steampowered.com/app/1222670/The_Sims_4/'
+    },
+    {
+        title: 'Stardew Vallew', 
+        image: `${process.env.PUBLIC_URL}/img/stardew_valley.png`, 
+        link: 'https://store.steampowered.com/app/413150/Stardew_Valley/'
+    },
+    {
+        title: 'Project Zomboid', 
+        image: `${process.env.PUBLIC_URL}/img/zomboid.jpg`, 
+        link: 'https://store.steampowered.com/app/108600/Project_Zomboid/'
+    },
+    {
+        title: 'House Flipper', 
+        image: `${process.env.PUBLIC_URL}/img/house_flipper.jpg`, 
+        link: 'https://store.steampowered.com/app/613100/House_Flipper/'
+    },
+    {
+        title: 'Dayz', 
+        image: `${process.env.PUBLIC_URL}/img/dayz.jpg`, 
+        link: 'https://store.steampowered.com/app/221100/DayZ/'
+    }
+]
+
+export const Simulation = () => {
+    return (
+        <>
+            <div className="flex flex-col gap-5">
+                <h2 className="text-xl"> Simulação </h2>
+                <div>
+                    <Swiper
+                        spaceBetween={0}
+                        slidesPerView={5}
+                        navigation={true} 
+                        modules={[Navigation]}
+                        onSlideChange={() => console.log('slide change')}
+                        onSwiper={(swiper) => console.log(swiper)}
+                    >
+                        {simulation.map((game, index) => (
+                            <SwiperSlide key={index}>
+                                <a href={game.link} target="_blank">
+                                    <img className="h-10 w-24 md:h-24 md:w-48 lg:h-40 lg:w-80 rounded-sm hover:border-2 hover:border-white" src={game.image} alt={game.title} />
+                                </a>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+                </div>
+            </div>
+        </>
+    )
+}

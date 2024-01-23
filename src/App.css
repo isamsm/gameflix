@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.swiper-button-prev {
+  color: white!important; 
+  size: 10px;
+  left: 0px!important;
+}
+
+.swiper-button-next {
+  color: white!important; 
+  size: 1px;
+  right: 0px!important;
+}
+
+.menu-trigger {
+  visibility: hidden;
+}
+
+@media (max-width: 425px) {
+  .menu-items {
+    visibility: hidden;
+  }
+
+  .menu-items.open {
+    visibility: visible;
+  }
+
+  .menu-trigger {
+    visibility: visible
+  }
+}
