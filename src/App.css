@@ -10,13 +10,11 @@
 
 .swiper-button-prev {
   color: white!important; 
-  size: 10px;
   left: 0px!important;
 }
 
 .swiper-button-next {
   color: white!important; 
-  size: 1px;
   right: 0px!important;
 }
 
@@ -24,7 +22,11 @@
   visibility: hidden;
 }
 
-@media (max-width: 425px) {
+:root{
+  --swiper-navigation-size: 20px!important;
+}
+
+@media (max-width: 767px) {
   .menu-items {
     visibility: hidden;
   }
@@ -34,6 +36,6 @@
   }
 
   .menu-trigger {
-    visibility: visible
+    visibility: visible;
   }
 }

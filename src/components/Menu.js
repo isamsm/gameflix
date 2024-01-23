@@ -11,8 +11,11 @@ export const Menu = () => {
         <>
             <nav>
                 <ul className="md:flex lg:flex bg-transparent gap-12">
+                    <li className="visible md:hidden lg:hidden text-secundary absolute top-6 left-12" onClick={toggleMenu}> 
+                        <AiOutlineMenu />
+                    </li>    
                     <li>
-                        <h1 className="pb-2 md:pb-0 lg:pb-0 text-xl md:text-4xl lg:text-4xl font-bebas text-secundary"> Gameflix </h1>
+                        <h1 className="pl-5 md:pl-0 lg:pl-0 pb-2 md:pb-0 lg:pb-0 text-xl md:text-4xl lg:text-4xl font-bebas text-secundary"> Gameflix </h1>
                     </li>
                     <li>
                         <ul>
@@ -23,9 +26,6 @@ export const Menu = () => {
                                 <a href="#"> Minha lista </a>
                             </li>
                         </ul>
-                    </li>    
-                    <li className="visible md:hidden lg:hidden text-secundary absolute top-6 right-8" onClick={toggleMenu}> 
-                        <AiOutlineMenu />
                     </li>         
                 </ul>
             </nav>
