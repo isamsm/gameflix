@@ -23,11 +23,11 @@ export const Menu = () => {
                         <ul>
                             <hr className={`${isOpen ? "visible border-fourth mx-2" : "invisible"}`}/>
                             <li className={`flex gap-2 md:gap-5 lg:gap-5 pt-0 md:pt-2 lg:pt-2 text-sm menu-items ${isOpen ? "flex-col open pl-12 pt-5" : ""}`}>
-                                <a href="#main"> Início </a>
-                                <a href="#list"> Minha Lista </a>
-                                <a href="#top"> Bombando </a>
-                                <a href="#sim"> Simulação </a>
-                                <a href="#horror"> Terror </a>
+                                <a href="#main" className="hover:underline"> Início </a>
+                                <a href="#list" className="hover:underline"> Minha Lista </a>
+                                <a href="#top" className="hover:underline"> Bombando </a>
+                                <a href="#sim" className="hover:underline"> Simulação </a>
+                                <a href="#horror" className="hover:underline"> Terror </a>
                             </li>
                         </ul>
                     </li>         

@@ -20,10 +20,10 @@ export const Gameflix = () => {
                 </div>
                 <div className="flex flex-col md:flex-row lg:flex-row gap-5">
                     <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank">
-                        <button className="flex bg-white items-center justify-center rounded-sm gap-2 h-11 w-36 text-primary md:text-lg lg:text-lg"> <FaPlay />  Jogar </button>
+                        <button className="flex bg-white items-center justify-center rounded-sm gap-2 h-11 w-36 text-primary md:text-lg lg:text-lg hover:scale-110"> <FaPlay />  Jogar </button>
                     </a>
                     <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank">
-                        <button className="flex bg-third items-center justify-center rounded-sm gap-2 h-11 w-56 text-white md:text-lg lg:text-lg"> <FiInfo /> Mais informações </button>
+                        <button className="flex bg-third items-center justify-center rounded-sm gap-2 h-11 w-56 text-white md:text-lg lg:text-lg hover:scale-110"> <FiInfo /> Mais informações </button>
                     </a>
                 </div>
             </div>
