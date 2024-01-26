@@ -9,7 +9,7 @@ export const Menu = () => {
     }
     return (
         <>
-            <nav className={`px-12 py-4 fixed top-0 bg-primary w-full z-10 ${isOpen ? "menu" : ""}`}>
+            <nav className={`px-12 py-4 fixed top-0 bg-primary w-full z-10 ${isOpen ? "menu w-auto" : ""}`}>
                 <ul className="md:flex lg:flex gap-12">
                     <div className={`${isOpen ? "px-12 py-4" : ""}`}>
                         <li className="visible md:hidden lg:hidden text-3xl text-secundary absolute" onClick={toggleMenu}> 
