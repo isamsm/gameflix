@@ -34,7 +34,7 @@ const horror = [
 export const Horror = () => {
     return (
         <>
-           <div className="flex flex-col gap-5">
+           <div id='horror' className="flex flex-col gap-5">
                 <h2 className="text-xl"> Terror </h2>
                 <div>
                 <Swiper

@@ -9,21 +9,25 @@ export const Menu = () => {
     }
     return (
         <>
-            <nav>
-                <ul className="md:flex lg:flex bg-transparent gap-12">
-                    <li className="visible md:hidden lg:hidden text-secundary absolute top-6 left-12" onClick={toggleMenu}> 
-                        <AiOutlineMenu />
-                    </li>    
-                    <li>
-                        <h1 className="pl-5 md:pl-0 lg:pl-0 pb-2 md:pb-0 lg:pb-0 text-xl md:text-4xl lg:text-4xl font-bebas text-secundary"> Gameflix </h1>
-                    </li>
+            <nav className={`px-12 py-4 fixed top-0 bg-primary w-full z-10 ${isOpen ? "menu" : ""}`}>
+                <ul className="md:flex lg:flex gap-12">
+                    <div className={`${isOpen ? "px-12 py-4" : ""}`}>
+                        <li className="visible md:hidden lg:hidden text-3xl text-secundary absolute" onClick={toggleMenu}> 
+                            <AiOutlineMenu />
+                        </li>    
+                        <li>
+                            <h1 className="pl-12 md:pl-0 lg:pl-0 pb-2 md:pb-0 lg:pb-0 text-3xl font-bebas text-secundary"> Gameflix </h1>
+                        </li>                
+                    </div>
                     <li>
                         <ul>
-                            <li className={`flex gap-2 md:gap-5 lg:gap-5 pt-0 md:pt-2 lg:pt-2 text-sm menu-items ${isOpen ? "flex-col open" : ""}`}>
-                                <a href="#"> Início </a>
-                                <a href="#"> Jogos </a>
-                                <a href="#"> Bombando </a>
-                                <a href="#"> Minha lista </a>
+                            <hr className={`${isOpen ? "visible border-fourth mx-2" : "invisible"}`}/>
+                            <li className={`flex gap-2 md:gap-5 lg:gap-5 pt-0 md:pt-2 lg:pt-2 text-sm menu-items ${isOpen ? "flex-col open pl-12 pt-5" : ""}`}>
+                                <a href="#main"> Início </a>
+                                <a href="#list"> Minha Lista </a>
+                                <a href="#top"> Bombando </a>
+                                <a href="#sim"> Simulação </a>
+                                <a href="#horror"> Terror </a>
                             </li>
                         </ul>
                     </li>         

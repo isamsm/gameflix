@@ -11,7 +11,8 @@ module.exports = {
       colors: {
         'primary': '#141414',
         'secundary': '#b700ff',
-        'third': '#727272'
+        'third': '#727272',
+        'fourth': '#3D3D3D'
       },
       fontFamily: {
         'helvetica': ['Helvetica Neue', 'sans-serif'],

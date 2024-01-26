@@ -39,7 +39,7 @@ const topGames = [
 export const TopGames = () => {
     return (
         <>
-            <div className="flex flex-col gap-5">
+            <div id='top' className="flex flex-col gap-5">
                 <h2 className="text-xl"> Em alta </h2>
                 <div>
                 <Swiper

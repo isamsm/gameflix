@@ -29,7 +29,7 @@ const myList = [
 export const MyList = () => {
     return (
         <>
-            <div className="flex flex-col gap-5">
+            <div id='list' className="flex flex-col gap-5">
                 <h2 className="text-xl"> Minha lista </h2>
                 <div>
                     <Swiper

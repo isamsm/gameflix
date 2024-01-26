@@ -34,7 +34,7 @@ const simulation = [
 export const Simulation = () => {
     return (
         <>
-            <div className="flex flex-col gap-5">
+            <div id='sim' className="flex flex-col gap-5">
                 <h2 className="text-xl"> Simulação </h2>
                 <div>
                 <Swiper

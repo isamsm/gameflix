@@ -9,9 +9,11 @@ import { Horror } from "./components/Horror";
 export const Gameflix = () => {
     return (
     <div className='font-helvetica text-white'>
-        <div className="bg-game bg-cover h-screen px-12 pt-5">
+        <div>
             <Menu />
-            <div className="flex flex-col h-full -mt-12 justify-center items-start gap-5">
+        </div>
+        <div id="main" className="bg-game bg-cover h-screen">
+            <div className="flex flex-col h-full -mt-12 justify-center items-start gap-5 px-12">
                 <h1 className="text-xl md:text-5xl lg:text-5xl"> Elden Ring </h1>
                 <div className="w-full md:w-1/2 lg:w-1/2">
                     <p> Em Elden Ring, o jogador incorpora um Maculado, guerreiro guiado pela força da Graça para portar o poder do Anel Prístino e torna-se um Lorde Prístino. A trama tem como cenário as Terras Intermédias, um local governado pela Rainha Marika. </p>
