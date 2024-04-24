@@ -65,7 +65,7 @@ export const Horror = () => {
                     >
                         {horror.map((game, index) => (
                             <SwiperSlide key={index}>
-                                <a href={game.link} target="_blank" draggable>
+                                <a href={game.link} target="_blank">
                                     <img className="h-22 w-40 md:h-30 md:w-60 lg:h-40 lg:w-80 rounded-sm hover:border-2 hover:border-white" src={game.image} alt={game.title} />
                                 </a>
                             </SwiperSlide>
