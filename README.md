@@ -1,78 +1,33 @@
-<h1> GameFlix </h1>
+# GameFlix <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" alt="Alien Monster" width="25" height="25" />
 
-<h3> Nesse projeto criei duas interfaces, a de menu e a principal, baseadas na Netflix mas com um foco voltado a jogos. Todos os botões são interativos, quando se clica na imagem de um dos jogos, é redirecionado para a página aonde pode efetuar a compra e encontrar mais informações sobre ele. Foram utilizados apenas o HTML e o CSS </h3>
+## Sobre 
 
-<h4> ⚠️ Esse projeto passou por uma atualização aonde foi implementado o React de forma que fosse usado um carousel de imagens! </h4>
+### Nesse projeto criei duas interfaces, a de menu e a principal, baseadas na Netflix mas com um foco voltado a jogos. Todos os botões são interativos, quando se clica na imagem de um dos jogos, é redirecionado para a página aonde pode efetuar a compra e encontrar mais informações sobre ele. Foram utilizados apenas o HTML e o CSS. 
 
-##
+## ⚠️ Esse projeto passou por uma atualização aonde foi implementado o React de forma que fosse usado um carousel de imagens! </h4>
 
-# Getting Started with Create React App
+## Como usar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 1. Clonar o projeto em sua máquina:
 
-## Available Scripts
+```
+git clone https://github.com/isamsm/gameflix
+```
 
-In the project directory, you can run:
+### 2. Instalar dependências:
 
-### `npm start`
+```
+npm i
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. Rodar o projeto:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+npm start
+```
 
-### `npm test`
+### 4. Acessar o ambiente local:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+localhost:3000 no seu navegador.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+E pronto, dessa forma você já terá o projeto rodando em sua máquina!
