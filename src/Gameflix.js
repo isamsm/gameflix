@@ -19,10 +19,10 @@ export const Gameflix = () => {
                     <p> Em Elden Ring, o jogador incorpora um Maculado, guerreiro guiado pela força da Graça para portar o poder do Anel Prístino e torna-se um Lorde Prístino. A trama tem como cenário as Terras Intermédias, um local governado pela Rainha Marika. </p>
                 </div>
                 <div className="flex flex-col md:flex-row lg:flex-row gap-5">
-                    <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank">
+                    <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank" rel="noopener noreferrer">
                         <button className="flex bg-white items-center justify-center rounded-sm gap-2 h-11 w-36 text-primary md:text-lg lg:text-lg hover:scale-110"> <FaPlay />  Jogar </button>
                     </a>
-                    <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank">
+                    <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank" rel="noopener noreferrer">
                         <button className="flex bg-third items-center justify-center rounded-sm gap-2 h-11 w-56 text-white md:text-lg lg:text-lg hover:scale-110"> <FiInfo /> Mais informações </button>
                     </a>
                 </div>

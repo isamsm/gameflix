@@ -28,6 +28,21 @@ const simulation = [
         title: 'Dayz', 
         image: `${process.env.PUBLIC_URL}/img/dayz.jpg`, 
         link: 'https://store.steampowered.com/app/221100/DayZ/'
+    },
+    {
+        title: 'Sun Haven', 
+        image: `${process.env.PUBLIC_URL}/img/sun_haven.jpg`, 
+        link: 'https://store.steampowered.com/app/1432860/Sun_Haven/'
+    },
+    {
+        title: 'Coral Island', 
+        image: `${process.env.PUBLIC_URL}/img/coral_island.jpg`, 
+        link: 'https://store.steampowered.com/app/1158160/Coral_Island/'
+    },
+    {
+        title: 'Euro Truck Simulator 2', 
+        image: `${process.env.PUBLIC_URL}/img/euro_truck.jpg`, 
+        link: 'https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/'
     }
 ]
 
@@ -65,7 +80,7 @@ export const Simulation = () => {
                     >
                         {simulation.map((game, index) => (
                             <SwiperSlide key={index}>
-                                <a href={game.link} target="_blank">
+                                <a href={game.link} target="_blank" rel="noopener noreferrer">
                                     <img className="h-22 w-40 md:h-30 md:w-60 lg:h-40 lg:w-80 rounded-sm hover:border-2 hover:border-white" src={game.image} alt={game.title} />
                                 </a>
                             </SwiperSlide>

@@ -1,5 +1,5 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom/client";
+import React from "react";
+import ReactDOM from "react-dom";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,11 +20,14 @@ const router = createBrowserRouter([
 ]);
 
 export default function App() {
-  ReactDOM.createRoot(document.getElementById("root")).render(
-    <>
-      <React.StrictMode>
-        <RouterProvider router={router} />    
-      </React.StrictMode>
-    </>
+  return (
+    <React.StrictMode>
+      <div>
+        <RouterProvider router={router} />
+      </div>
+    </React.StrictMode>
   );
 }
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+

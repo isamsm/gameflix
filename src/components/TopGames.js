@@ -20,9 +20,19 @@ const topGames = [
         link: 'https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/'
     },
     {
+        title: 'Grand Theft Auto V', 
+        image: `${process.env.PUBLIC_URL}/img/gta.jpg`, 
+        link: 'https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/'
+    },
+    {
         title: 'Resident Evil', 
         image: `${process.env.PUBLIC_URL}/img/resident_evil.jpg`, 
         link: 'https://store.steampowered.com/app/1196590/Resident_Evil_Village/'
+    },
+    {
+        title: 'Dota 2', 
+        image: `${process.env.PUBLIC_URL}/img/dota.jpg`, 
+        link: 'https://store.steampowered.com/app/570/Dota_2/'
     },
     {
         title: 'V_Rising', 
@@ -70,7 +80,7 @@ export const TopGames = () => {
                     >
                         {topGames.map((game, index) => (
                             <SwiperSlide key={index}>
-                                <a href={game.link} target="_blank">
+                                <a href={game.link} target="_blank" rel="noopener noreferrer">
                                     <img className="h-22 w-40 md:h-30 md:w-60 lg:h-40 lg:w-80 rounded-sm hover:border-2 hover:border-white" src={game.image} alt={game.title} />
                                 </a>
                             </SwiperSlide>

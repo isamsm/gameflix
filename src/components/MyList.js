@@ -5,9 +5,9 @@ import 'swiper/css/navigation';
 
 const myList = [
     {
-        title: 'Dead by Daylight', 
-        image: `${process.env.PUBLIC_URL}/img/dbd.jpg`, 
-        link: 'https://store.steampowered.com/app/381210/Dead_by_Daylight/'
+        title: 'Omori', 
+        image: `${process.env.PUBLIC_URL}/img/omori.jpg`, 
+        link: 'https://store.steampowered.com/app/1150690/OMORI/'
     },
     {
         title: 'Phasmophobia', 
@@ -23,6 +23,11 @@ const myList = [
         title: 'The Witcher', 
         image: `${process.env.PUBLIC_URL}/img/the_witcher.jpg`, 
         link: 'https://store.steampowered.com/bundle/727/The_Witcher_Trilogy/'
+    },
+    {
+        title: 'Stardew Vallew', 
+        image: `${process.env.PUBLIC_URL}/img/stardew_valley.png`, 
+        link: 'https://store.steampowered.com/app/413150/Stardew_Valley/'
     }
 ];
 
@@ -60,7 +65,7 @@ export const MyList = () => {
                     >
                         {myList.map((game, index) => (
                             <SwiperSlide key={index}>
-                                <a href={game.link} target="_blank">
+                                <a href={game.link} target="_blank" rel="noopener noreferrer">
                                     <img className="h-22 w-40 md:h-30 md:w-60 lg:h-40 lg:w-80 rounded-sm hover:border-2 hover:border-white" src={game.image} alt={game.title} />
                                 </a>
                             </SwiperSlide>
