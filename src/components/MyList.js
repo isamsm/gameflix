@@ -46,7 +46,7 @@ export const MyList = () => {
                         onSwiper={(swiper) => console.log(swiper)}
                         breakpoints={{
                             0: {
-                                slidesPerView: 2,
+                                slidesPerView: 3,
                                 spaceBetween: 0,
                             },
                             425: {
