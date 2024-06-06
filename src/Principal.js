@@ -5,19 +5,19 @@ export const Principal = () => {
       <div className="flex flex-col md:flex-row lg:flex-row gap-5 text-third">
         <div className="flex flex-col text-center gap-5 hover:text-white">
           <a href={"/home"}>
-            <img src={`${process.env.PUBLIC_URL}/img/ellie.jpg`} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white"/>
+            <img src={`${process.env.PUBLIC_URL}/img/ellie.jpg`} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white" alt='foto ellie williams'/>
           </a>
           <span> Jogador 1 </span>
         </div>
         <div className="flex flex-col text-center gap-5 hover:text-white">
           <a href={"/home"}>
-              <img src={`${process.env.PUBLIC_URL}/img/gerald.png`} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white"/>
+              <img src={`${process.env.PUBLIC_URL}/img/gerald.png`} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white" alt='foto gerald de rivia'/>
           </a>
           <span> Jogador 2 </span>
         </div>
         <div className="flex flex-col text-center gap-5 hover:text-white">
           <a href={"/home"}>
-              <img src={`${process.env.PUBLIC_URL}/img/max.png`} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white"/>
+              <img src={`${process.env.PUBLIC_URL}/img/max.png`} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white" alt='foto max caulfield'/>
           </a>
           <span> Jogador 3 </span>
         </div>
