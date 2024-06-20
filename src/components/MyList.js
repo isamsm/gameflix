@@ -3,30 +3,36 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
+import omori from '../assets/games/omori.webp'
+import phasmophobia from '../assets/games/phasmophobia.webp'
+import gta from '../assets/games/gta.webp'
+import the_witcher from '../assets/games/the_witcher.webp'
+import stardew_valley from '../assets/games/stardew_valley.webp'
+
 const myList = [
     {
         title: 'Omori', 
-        image: `${process.env.PUBLIC_URL}/img/omori.jpg`, 
+        image: omori, 
         link: 'https://store.steampowered.com/app/1150690/OMORI/'
     },
     {
         title: 'Phasmophobia', 
-        image: `${process.env.PUBLIC_URL}/img/phasmophobia.jpg`, 
+        image: phasmophobia, 
         link: 'https://store.steampowered.com/app/739630/Phasmophobia/'
     },
     {
         title: 'Grand Theft Auto V', 
-        image: `${process.env.PUBLIC_URL}/img/gta.jpg`, 
+        image: gta, 
         link: 'https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/'
     },
     {
         title: 'The Witcher', 
-        image: `${process.env.PUBLIC_URL}/img/the_witcher.jpg`, 
+        image: the_witcher, 
         link: 'https://store.steampowered.com/bundle/727/The_Witcher_Trilogy/'
     },
     {
         title: 'Stardew Vallew', 
-        image: `${process.env.PUBLIC_URL}/img/stardew_valley.png`, 
+        image: stardew_valley, 
         link: 'https://store.steampowered.com/app/413150/Stardew_Valley/'
     }
 ];

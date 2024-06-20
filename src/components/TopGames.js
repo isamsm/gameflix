@@ -3,45 +3,54 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
+import elden_ring from '../assets/games/elden_ring.webp'
+import dmc5 from '../assets/games/dmc5.webp'
+import cs from '../assets/games/cs.webp'
+import gta from '../assets/games/gta.webp'
+import resident_evil from '../assets/games/resident_evil.webp'
+import dota from '../assets/games/dota.webp'
+import v_rising from '../assets/games/v_rising.webp'
+import palworld from '../assets/games/palworld.webp'
+
 const topGames = [
     {
         title: 'Elden Ring', 
-        image: `${process.env.PUBLIC_URL}/img/elden_ring.jpg`, 
+        image: elden_ring, 
         link: 'https://store.steampowered.com/app/1245620/ELDEN_RING/'
     },
     {
         title: 'Devil May Cry 5', 
-        image: `${process.env.PUBLIC_URL}/img/dmc5.png`, 
+        image: dmc5, 
         link: 'https://store.steampowered.com/app/601150/Devil_May_Cry_5/'
     },
     {
         title: 'CounterStrike Global Offensive', 
-        image: `${process.env.PUBLIC_URL}/img/cs.jpeg`, 
+        image: cs, 
         link: 'https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/'
     },
     {
         title: 'Grand Theft Auto V', 
-        image: `${process.env.PUBLIC_URL}/img/gta.jpg`, 
+        image: gta, 
         link: 'https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/'
     },
     {
         title: 'Resident Evil', 
-        image: `${process.env.PUBLIC_URL}/img/resident_evil.jpg`, 
+        image: resident_evil, 
         link: 'https://store.steampowered.com/app/1196590/Resident_Evil_Village/'
     },
     {
         title: 'Dota 2', 
-        image: `${process.env.PUBLIC_URL}/img/dota.jpg`, 
+        image: dota, 
         link: 'https://store.steampowered.com/app/570/Dota_2/'
     },
     {
         title: 'V_Rising', 
-        image: `${process.env.PUBLIC_URL}/img/v_rising.jpg`, 
+        image: v_rising, 
         link: 'https://store.steampowered.com/app/1604030/V_Rising/'
     },
     {
         title: 'PalWorld', 
-        image: `${process.env.PUBLIC_URL}/img/palworld.jpg`, 
+        image: palworld, 
         link: 'https://store.steampowered.com/app/1623730/Palworld/'
     }
 ];

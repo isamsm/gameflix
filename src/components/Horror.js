@@ -3,45 +3,54 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
+import dbd from '../assets/games/dbd.webp'
+import phasmophobia from '../assets/games/phasmophobia.webp'
+import omori from '../assets/games/omori.webp'
+import elden_ring from '../assets/games/elden_ring.webp'
+import v_rising from '../assets/games/v_rising.webp'
+import resident_evil from '../assets/games/resident_evil.webp'
+import dying_light from '../assets/games/dying_light.webp'
+import hunt from '../assets/games/hunt.webp'
+
 const horror = [
     {
         title: 'Dead by Daylight', 
-        image: `${process.env.PUBLIC_URL}/img/dbd.jpg`, 
+        image: dbd, 
         link: 'https://store.steampowered.com/app/381210/Dead_by_Daylight/'
     },
     {
         title: 'Phasmophobia', 
-        image: `${process.env.PUBLIC_URL}/img/phasmophobia.jpg`, 
+        image: phasmophobia, 
         link: 'https://store.steampowered.com/app/739630/Phasmophobia/'
     },
     {
         title: 'Omori', 
-        image: `${process.env.PUBLIC_URL}/img/omori.jpg`, 
+        image: omori, 
         link: 'https://store.steampowered.com/app/1150690/OMORI/'
     },
     {
         title: 'Elden Ring', 
-        image: `${process.env.PUBLIC_URL}/img/elden_ring.jpg`, 
+        image: elden_ring, 
         link: 'https://store.steampowered.com/app/1245620/ELDEN_RING/'
     },
     {
         title: 'V_Rising', 
-        image: `${process.env.PUBLIC_URL}/img/v_rising.jpg`, 
+        image: v_rising, 
         link: 'https://store.steampowered.com/app/1604030/V_Rising/'
     },
     {
         title: 'Resident Evil', 
-        image: `${process.env.PUBLIC_URL}/img/resident_evil.jpg`, 
+        image: resident_evil, 
         link: 'https://store.steampowered.com/app/1196590/Resident_Evil_Village/'
     },
     {
         title: 'Dying Light', 
-        image: `${process.env.PUBLIC_URL}/img/dying_light.jpg`, 
+        image: dying_light, 
         link: 'https://store.steampowered.com/app/239140/Dying_Light/'
     },
     {
         title: 'Hunt', 
-        image: `${process.env.PUBLIC_URL}/img/hunt.jpg`, 
+        image: hunt, 
         link: 'https://store.steampowered.com/app/594650/Hunt_Showdown/'
     }
 ]

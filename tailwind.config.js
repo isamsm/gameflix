@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'game': "url('/public/background.jpg')"
+        'game': "url('/public/assets/background.webp')"
       },
       colors: {
         'primary': '#141414',

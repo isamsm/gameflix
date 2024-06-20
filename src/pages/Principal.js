@@ -1,5 +1,9 @@
 import { Link } from 'react-router-dom';
 
+import ellie from '../assets/profiles/ellie.webp'
+import gerald from '../assets/profiles/gerald.webp'
+import max from '../assets/profiles/max.webp'
+
 export const Principal = () => {
   return (
     <div className="h-screen flex flex-col items-center justify-center bg-primary text-white">
@@ -7,19 +11,19 @@ export const Principal = () => {
       <div className="flex flex-col md:flex-row lg:flex-row gap-5 text-third">
         <div className="flex flex-col text-center gap-5 hover:text-white">
           <Link to="/home">
-            <img src={`${process.env.PUBLIC_URL}/img/ellie.jpg`} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white" alt='foto ellie williams'/>
+            <img src={ellie} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white" alt='Icone Ellie Williams'/>
           </Link>
           <span> Jogador 1 </span>
         </div>
         <div className="flex flex-col text-center gap-5 hover:text-white">
           <Link to="/home">
-              <img src={`${process.env.PUBLIC_URL}/img/gerald.png`} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white" alt='foto gerald de rivia'/>
+              <img src={gerald} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white" alt='Icone Gerald de Rivia'/>
           </Link>
           <span> Jogador 2 </span>
         </div>
         <div className="flex flex-col text-center gap-5 hover:text-white">
           <Link to="/home">
-              <img src={`${process.env.PUBLIC_URL}/img/max.png`} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white" alt='foto max caulfield'/>
+              <img src={max} className="h-20 md:h-44 lg:h-44 rounded-md hover:border-2 hover:border-white" alt='Icone Max Caulfield'/>
           </Link>
           <span> Jogador 3 </span>
         </div>

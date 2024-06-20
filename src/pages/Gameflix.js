@@ -1,10 +1,10 @@
 import { FaPlay } from "react-icons/fa";
 import { FiInfo } from "react-icons/fi";
-import { Menu } from './components/Menu';
-import { MyList } from "./components/MyList";
-import { TopGames } from "./components/TopGames";
-import { Simulation } from "./components/Simulation";
-import { Horror } from "./components/Horror";
+import { Menu } from '../components/Menu';
+import { MyList } from "../components/MyList";
+import { TopGames } from "../components/TopGames";
+import { Simulation } from "../components/Simulation";
+import { Horror } from "../components/Horror";
 
 export const Gameflix = () => {
     return (

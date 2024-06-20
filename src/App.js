@@ -5,8 +5,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./App.css"
-import { Gameflix } from "./Gameflix";
-import { Principal } from "./Principal";
+import { Gameflix } from "./pages/Gameflix";
+import { Principal } from "./pages/Principal";
 
 const router = createBrowserRouter([
   {
